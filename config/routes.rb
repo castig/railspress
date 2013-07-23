@@ -1,7 +1,12 @@
 Railspress::Application.routes.draw do
   
-  resources :posts
+  #create a custom route 
+  devise_for :users do 
+    get "admin" => "devise/sessions#new"
+  end 
 
+  resources :posts
+  
   get 'about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
