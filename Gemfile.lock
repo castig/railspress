@@ -29,6 +29,8 @@ GEM
     atomic (1.1.10)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
+    bootstrap-wysihtml5-rails (0.3.1.21)
+      railties (>= 3.0)
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -115,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 2.3.2.0)
+  bootstrap-wysihtml5-rails
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
