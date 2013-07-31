@@ -8,3 +8,7 @@
 		<%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
 	</div>
 <% end %>
+
+<% if !user_signed_in? %>
+    <%= "This text shows up on the page" %>
+<% end %> 
