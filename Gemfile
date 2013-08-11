@@ -52,5 +52,5 @@ end
 
 #added
 gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
-gem 'bootstrap-wysihtml5-rails'
+gem 'font-awesome-rails', '3.2.1.2'
 gem 'devise', '~> 3.0.0'

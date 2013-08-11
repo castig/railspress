@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/Nerian/bootstrap-wysihtml5-rails.git
+  revision: 081b8ba0576dbfba2df1d21a46bc83a1e04404c9
+  specs:
+    bootstrap-wysihtml5-rails (0.3.1.21)
+      railties (>= 3.0)
+
+GIT
   remote: git://github.com/thomas-mcdonald/bootstrap-sass.git
   revision: 1685fb137e2b858a6387eb669d32dae104b58929
   branch: 3
@@ -36,8 +43,6 @@ GEM
     arel (4.0.0)
     atomic (1.1.10)
     bcrypt-ruby (3.1.1)
-    bootstrap-wysihtml5-rails (0.3.1.21)
-      railties (>= 3.0)
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -54,6 +59,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    font-awesome-rails (3.2.1.2)
+      railties (>= 3.2, < 5.0)
     hike (1.2.3)
     i18n (0.6.4)
     jbuilder (1.4.2)
@@ -135,9 +142,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass!
-  bootstrap-wysihtml5-rails
+  bootstrap-wysihtml5-rails!
   coffee-rails (~> 4.0.0)
   devise (~> 3.0.0)
+  font-awesome-rails (= 3.2.1.2)
   jbuilder (~> 1.2)
   jquery-rails
   pg
