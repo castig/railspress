@@ -1,13 +1,1 @@
-
-<% @posts.each do |post| %>
-    
-    <%= render post %>
-
-<% end %>
-
-
-<br>
-
-<% if user_signed_in? %>
-  <%= link_to 'New Post', new_post_path %>
-<% end %>
+<%= render @posts %>

@@ -1,4 +1,4 @@
-<h2><%= link_to post.title, post %></h2>
+<h2 class="center"><%= link_to post.title, post %></h2>
 <p><%= raw post.body %></p>
 
 <% if user_signed_in? %>
@@ -8,7 +8,3 @@
 		<%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
 	</div>
 <% end %>
-
-<% if !user_signed_in? %>
-    <%= "This text shows up on the page" %>
-<% end %> 
