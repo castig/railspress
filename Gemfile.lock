@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/thomas-mcdonald/bootstrap-sass.git
+  revision: 1685fb137e2b858a6387eb669d32dae104b58929
+  branch: 3
+  specs:
+    bootstrap-sass (3.0.0.0)
+      sass (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,8 +36,6 @@ GEM
     arel (4.0.0)
     atomic (1.1.10)
     bcrypt-ruby (3.1.1)
-    bootstrap-sass (2.3.2.0)
-      sass (~> 3.2)
     bootstrap-wysihtml5-rails (0.3.1.21)
       railties (>= 3.0)
     builder (3.1.4)
@@ -131,7 +137,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 2.3.2.0)
+  bootstrap-sass!
   bootstrap-wysihtml5-rails
   coffee-rails (~> 4.0.0)
   devise (~> 3.0.0)

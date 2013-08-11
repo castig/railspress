@@ -14,10 +14,10 @@
 
 		<% flash.each do |key, value| %>
 			<div class="alert alert-<%= key %>"><%= value %></div>
-		<% end %>	
+		<% end %>
 		<div class="row">
-			<div class="span6 offset3">
-				<%= yield %>	
+			<div class="col-lg-6 col-lg-offset-3">
+				<%= yield %>
 			</div>
 		</div>
 		<%= render "layouts/footer" %>

@@ -50,8 +50,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-#added 
-gem 'bootstrap-sass', '~> 2.3.2.0'
+#added
+gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
 gem 'simple_form', '~> 3.0.0.rc'
 gem 'bootstrap-wysihtml5-rails'
 gem 'devise', '~> 3.0.0'
