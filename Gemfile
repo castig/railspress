@@ -52,10 +52,5 @@ end
 
 #added
 gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
-gem 'simple_form', '~> 3.0.0.rc'
 gem 'bootstrap-wysihtml5-rails'
 gem 'devise', '~> 3.0.0'
-
-
-
-

@@ -2,9 +2,6 @@
 <p><%= raw post.body %></p>
 
 <% if user_signed_in? %>
-	<div class="actions">
-		<%= link_to 'Show', post %>
-		<%= link_to 'Edit', edit_post_path(post) %>
-		<%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
-	</div>
+	<%= link_to 'Edit', edit_post_path(post) %> |
+	<%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
 <% end %>
