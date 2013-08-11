@@ -1,12 +1,13 @@
 Railspress::Application.routes.draw do
-  
-  #create a custom route 
-  devise_for :users do 
+
+  mount Bootsy::Engine => '/bootsy', as: 'bootsy'
+  #create a custom route
+  devise_for :users do
     get "admin" => "devise/sessions#new"
-  end 
+  end
 
   resources :posts
-  
+
   get 'about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
@@ -49,7 +50,7 @@ Railspress::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

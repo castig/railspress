@@ -1,24 +1,15 @@
 <%= form_for(@post) do |f| %>
   <%= render 'layouts/error_messages', object: f.object %>
-<fieldset>
-
   <div class="form-group">
     <%= f.label :title %>
     <%= f.text_field :title, class: "form-control" %>
   </div>
   <div class="form-group">
     <%= f.label :body %>
-    <%= f.text_area :body, class: "wysihtml5 form-control", rows: "6" %>
+    <%= f.bootsy_area :body, class: "form-control", rows: "12" %>
   </div>
 
   <div class="form-group">
     <%= f.button :submit, class: "btn btn-default" %>
   </div>
-</fieldset>
 <% end %>
-
-<script type="text/javascript">
-  $('.wysihtml5').each(function(i, elem) {
-    $(elem).wysihtml5();
-  });
-</script>

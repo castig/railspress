@@ -53,4 +53,6 @@ end
 #added
 gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
 gem 'font-awesome-rails', '3.2.1.2'
+gem 'bootsy'
+gem 'carrierwave'
 gem 'devise', '~> 3.0.0'
